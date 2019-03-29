@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: Tuscan Tours
 onpage_menu: false
 body_classes: "modular header-lite fullwidth"
 bg_color: "#B4B093"
@@ -13,5 +13,3 @@ content:
             - _portfolio
             - _bottom
 ---
-
-

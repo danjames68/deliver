@@ -1,15 +1,15 @@
 ---
-title: Do you Like What You See?
+title: Self Guided Tours in Tuscany
 menu: Other Pages
 class: small
 buttons:
-    - text: LEARN
-      url: http://learn.getgrav.org
+    - text: Suggest a Tour
+      mailto: dan@casole.com
       primary: true
 ---
 
 ___
 
-## Do you Like What You See?
+## Is there a Tour you'd particularly like?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.
+Write to us and tell us if you have an idea for a Tour you'd like
