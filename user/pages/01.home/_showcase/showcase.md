@@ -2,14 +2,14 @@
 title: Showcase
 menu: Top
 slides:
-  - image: image1.jpg
+  - image: siena.jpg
     heading: "Villa Samantha in Sicily"
     subheading: "Luxury for 8 near Mazara del Vallo"
     button_text: See more
     button_url: http://learn.getgrav.org
-  - image: image2.jpg
-    heading: "Aenean lacinia <strong>bibendum</strong> nulla sed consectetur. !"
-    subheading: "Etiam porta sem malesuada magna mollis euismod.."
+  - image: siena-map.jpg
+    heading: "The Via Francigena and the origins of siena"
+    subheading: "An early industrial revolution and religious pilgrimage"
     button_text: LOREM
     button_url: http://learn.getgrav.org
   - image: image3.jpg

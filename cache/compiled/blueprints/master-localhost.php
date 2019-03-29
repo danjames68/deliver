@@ -1,71 +1,75 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1553875753,
-    'checksum' => '1df8e25c869c214a2a84f4cb1cbeb6f2',
+    'timestamp' => 1553890821,
+    'checksum' => '054358b408b831d6588db082f9d85c8c',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163656
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163656
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163656
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163656
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163656
             ]
         ],
         'user/plugins' => [
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163664
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/plugins/relatedpages/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163668
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163668
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163668
             ],
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163658
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/blueprints.yaml',
+                'modified' => 1553890793
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163662
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163660
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163658
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163660
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/blueprints.yaml',
-                'modified' => 1553875683
+                'modified' => 1553163670
             ]
         ]
     ],
@@ -2799,6 +2803,28 @@ return [
                 'name' => 'plugins.archives.filter_combinator',
                 'validation' => 'strict'
             ],
+            'plugins.devtools' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.devtools.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.devtools.enabled',
+                'validation' => 'strict'
+            ],
             'plugins.feed' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -3584,6 +3610,9 @@ return [
                         'category' => 'plugins.archives.filters.category'
                     ],
                     'filter_combinator' => 'plugins.archives.filter_combinator'
+                ],
+                'devtools' => [
+                    'enabled' => 'plugins.devtools.enabled'
                 ],
                 'feed' => [
                     'enabled' => 'plugins.feed.enabled',

@@ -2,38 +2,41 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/deliver/user/config/site.yaml',
-    'modified' => 1553163656,
+    'modified' => 1553890684,
     'data' => [
-        'title' => 'Deliver',
+        'title' => 'Tuscany Tours',
         'author' => [
-            'name' => 'John Appleseed',
-            'email' => 'john@email.com',
-            'copyright' => 'Copyright 2013 Deliver. All Rights Reserved.'
+            'name' => 'Daniel James Wrightson',
+            'email' => 'dan@casole.com',
+            'copyright' => 'Copyright 2019 Invitation to Tuscany Ltd. All Rights Reserved.'
         ],
         'social' => [
             0 => [
-                'url' => 'https://twitter.com/getgrav',
+                'url' => 'https://twitter.com/inv2tuscany',
                 'icon' => 'twitter'
             ],
             1 => [
-                'url' => '#',
-                'icon' => 'facebook'
+                'url' => 'https://www.linkedin.com/company/invitation-to-tuscany/',
+                'icon' => 'linkedin'
             ],
             2 => [
-                'url' => 'blog.rss',
-                'icon' => 'rss'
+                'url' => 'https://www.facebook.com/VillasinBeautifulPlaces/',
+                'icon' => 'facebook'
             ]
         ],
         'contact' => [
             'address' => [
                 0 => [
-                    'line' => '222 Ave C South'
+                    'line' => 'Unit 5, 30 Friern Park'
                 ],
                 1 => [
-                    'line' => 'Saskatoon, Saskatchewan'
+                    'line' => 'North Finchley'
                 ],
                 2 => [
-                    'line' => 'Canada S7K 2N5'
+                    'line' => 'London N12 9DA'
+                ],
+                3 => [
+                    'line' => 'United Kingdom'
                 ]
             ],
             'gps' => '1.306.222.3456'
@@ -54,8 +57,8 @@ return [
         ],
         'quicklinks' => [
             0 => [
-                'text' => 'Portfolio',
-                'url' => 'base_url:portfolio'
+                'text' => 'Tuscan Tours',
+                'url' => 'base_url:tuscan-tours'
             ],
             1 => [
                 'text' => 'About',
@@ -86,7 +89,7 @@ return [
             'route' => '/blog'
         ],
         'metadata' => [
-            'description' => 'My Deliver Site'
+            'description' => 'Self Guided Tours in Tuscany'
         ],
         'summary' => [
             'size' => 300
@@ -101,19 +104,19 @@ return [
             'autoslide' => 'false',
             'autoslideHoverStop' => 'false',
             'interval' => '2000',
-            'loop' => 'false',
+            'loop' => 'true',
             'transition' => 'zoom',
             'itemsForSlide' => '0',
             'touch' => 'true',
             'swipe' => 'true'
         ],
         'footer' => [
-            'description' => 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
+            'description' => 'Self Guided Tours in Tuscany. History, Art and Architecture. We design and structure self-guided tours based on moments in history, important art-works and architecture.',
             'contact_title' => 'Contact Info',
             'links_title' => 'Quick Links',
             'newsletter_title' => 'Newsletter',
-            'newsletter_description' => 'Etiam porta sem malesuada magna mollis euismod.',
-            'copyright_text' => 'Copyright 2013 Deliver. All Rights Reserved.',
+            'newsletter_description' => 'Let us tell you a story. Subscribe here',
+            'copyright_text' => 'Copyright 2019 Invitation to Tuscany Ltd. All Rights Reserved.',
             'feedburner' => ''
         ]
     ]

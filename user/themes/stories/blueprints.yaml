@@ -1,0 +1,13 @@
+name: Stories
+version: 0.1.0
+description: Tours and Stories
+icon: rebel
+author:
+  name: danjames68
+  email: danjames68@me.com
+homepage: https://github.com/danjames68/grav-theme-stories
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/danjames68/grav-theme-stories/issues
+readme: https://github.com/danjames68/grav-theme-stories/blob/develop/README.md
+license: MIT

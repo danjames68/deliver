@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/deliver/user/config/system.yaml',
-    'modified' => 1553163656,
+    'modified' => 1553890897,
     'data' => [
         'home' => [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'deliver',
+            'theme' => 'stories',
             'process' => [
                 'markdown' => true,
                 'twig' => false
