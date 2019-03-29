@@ -1,15 +1,15 @@
 ---
-title: Do you Like What You See?
+title: Travel Advisor for perfect villa
 menu: Other Pages
 class: small
 buttons:
-    - text: LEARN
-      url: http://learn.getgrav.org
+    - text: Luxury Villas
+      url: https://www.invitationto.com
       primary: true
 ---
 
 ___
 
-## Do you Like What You See?
+## Shall we find your perfect villa?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.
+Visit our main website to see our entire selection of write to us so we can send you a shortlist

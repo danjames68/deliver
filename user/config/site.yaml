@@ -1,20 +1,20 @@
-title: Deliver
+title: Local Histories
 author:
-  name: John Appleseed                      # Default author name
-  email: 'john@email.com'                   # Default author email
-  copyright: "Copyright 2013 Deliver. All Rights Reserved."
+  name: Daniel James Wrightson              # Default author name
+  email: 'dan@casole.com'                   # Default author email
+  copyright: "Copyright 2019 Invitation to Tuscany Ltd. All Rights Reserved."
 social:
-  - url: 'https://twitter.com/getgrav'
+  - url: 'https://twitter.com/inv2tuscany'
     icon: 'twitter'
   - url: '#'
+    icon: 'linkedin'
+  - url: 'https://www.facebook.com/VillasinBeautifulPlaces/'
     icon: 'facebook'
-  - url: 'blog.rss'
-    icon: 'rss'
 contact:
   address:
-    - line: "222 Ave C South"
-    - line: "Saskatoon, Saskatchewan"
-    - line: "Canada S7K 2N5"
+    - line: "Unit 5, 30 Friern Park"
+    - line: "North Finchley"
+    - line: "London N12 9DA"
   gps: 1.306.222.3456  
 othermenu:
   - text: "About"
@@ -40,7 +40,7 @@ taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 blog:
   route: '/blog'                            # Route to blog
 metadata:
-    description: 'My Deliver Site'             # Site description
+    description: 'Self Guided Tours in Italy'   # Site description
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
@@ -53,18 +53,18 @@ header_options:
   autoslide: 'false'                        # Auto slideshow mode
   autoslideHoverStop: 'false'               # Pause auto slideshow mode on mouseover
   interval: '2000'                          # The interval between each slide (Interval in millisecond)
-  loop: 'false'                             # Infinite slideshow             
+  loop: 'true'                             # Infinite slideshow             
   transition : zoom                         # Set the animation kind (fade/slide/page/zoom)
   itemsForSlide: '0'                        # Wrap each 'n' item
   touch: 'true'                             # Set a native slide for touch device
   swipe : 'true'                            # Enable swipe for touch device
 
 footer:
-    description: "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+    description: "Self Guided Tours in Tuscany. History, Art and Architecture. We design and structure self-guided tours based on moments in history, important art-works and architecture."
     contact_title: "Contact Info"
     links_title: "Quick Links"
     newsletter_title: "Newsletter"
-    newsletter_description: "Etiam porta sem malesuada magna mollis euismod."
+    newsletter_description: "Let us tell you a story. Subscribe here"
     copyright_text: "Copyright 2013 Deliver. All Rights Reserved."
     feedburner: ""   # Your feedburner id for Newsletter footer modul
 

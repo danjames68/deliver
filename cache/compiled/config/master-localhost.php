@@ -1,93 +1,93 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1553812464,
-    'checksum' => 'c8fb8ac50539c0ab4c883278230102e7',
+    'timestamp' => 1553876857,
+    'checksum' => '2d4b9196bbe66fa34e4ebe5299e47191',
     'files' => [
         'user/config' => [
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1553163656
+                'modified' => 1553875683
             ],
             'plugins/jscomments' => [
                 'file' => 'user/config/plugins/jscomments.yaml',
-                'modified' => 1553163656
+                'modified' => 1553875683
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1553812463
+                'modified' => 1553875683
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1553163656
+                'modified' => 1553876855
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1553163656
+                'modified' => 1553875683
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1553163656
+                'modified' => 1553875683
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1553163656
+                'modified' => 1553875683
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1553163656
+                'modified' => 1553875683
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1553163656
+                'modified' => 1553875683
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1553163656
+                'modified' => 1553875683
             ]
         ],
         'user/plugins' => [
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1553163664
+                'modified' => 1553875683
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/plugins/relatedpages/relatedpages.yaml',
-                'modified' => 1553163668
+                'modified' => 1553875683
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
-                'modified' => 1553163668
+                'modified' => 1553875683
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1553163668
+                'modified' => 1553875683
             ],
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/archives.yaml',
-                'modified' => 1553163658
+                'modified' => 1553875683
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/feed.yaml',
-                'modified' => 1553163662
+                'modified' => 1553875683
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1553163660
+                'modified' => 1553875683
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/breadcrumbs.yaml',
-                'modified' => 1553163658
+                'modified' => 1553875683
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1553163660
+                'modified' => 1553875683
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
-                'modified' => 1553163670
+                'modified' => 1553875683
             ]
         ]
     ],
@@ -587,19 +587,19 @@ return [
             'salt' => 'iL7RSGZNpyuB9T'
         ],
         'site' => [
-            'title' => 'Deliver',
+            'title' => 'Local Histories',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'John Appleseed',
-                'email' => 'john@email.com',
-                'copyright' => 'Copyright 2013 Deliver. All Rights Reserved.'
+                'name' => 'Daniel James Wrightson',
+                'email' => 'dan@casole.com',
+                'copyright' => 'Copyright 2019 Invitation to Tuscany Ltd. All Rights Reserved.'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'My Deliver Site'
+                'description' => 'Self Guided Tours in Italy'
             ],
             'summary' => [
                 'enabled' => true,
@@ -618,28 +618,28 @@ return [
             ],
             'social' => [
                 0 => [
-                    'url' => 'https://twitter.com/getgrav',
+                    'url' => 'https://twitter.com/inv2tuscany',
                     'icon' => 'twitter'
                 ],
                 1 => [
                     'url' => '#',
-                    'icon' => 'facebook'
+                    'icon' => 'linkedin'
                 ],
                 2 => [
-                    'url' => 'blog.rss',
-                    'icon' => 'rss'
+                    'url' => 'https://www.facebook.com/VillasinBeautifulPlaces/',
+                    'icon' => 'facebook'
                 ]
             ],
             'contact' => [
                 'address' => [
                     0 => [
-                        'line' => '222 Ave C South'
+                        'line' => 'Unit 5, 30 Friern Park'
                     ],
                     1 => [
-                        'line' => 'Saskatoon, Saskatchewan'
+                        'line' => 'North Finchley'
                     ],
                     2 => [
-                        'line' => 'Canada S7K 2N5'
+                        'line' => 'London N12 9DA'
                     ]
                 ],
                 'gps' => '1.306.222.3456'
@@ -689,18 +689,18 @@ return [
                 'autoslide' => 'false',
                 'autoslideHoverStop' => 'false',
                 'interval' => '2000',
-                'loop' => 'false',
+                'loop' => 'true',
                 'transition' => 'zoom',
                 'itemsForSlide' => '0',
                 'touch' => 'true',
                 'swipe' => 'true'
             ],
             'footer' => [
-                'description' => 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
+                'description' => 'Self Guided Tours in Tuscany. History, Art and Architecture. We design and structure self-guided tours based on moments in history, important art-works and architecture.',
                 'contact_title' => 'Contact Info',
                 'links_title' => 'Quick Links',
                 'newsletter_title' => 'Newsletter',
-                'newsletter_description' => 'Etiam porta sem malesuada magna mollis euismod.',
+                'newsletter_description' => 'Let us tell you a story. Subscribe here',
                 'copyright_text' => 'Copyright 2013 Deliver. All Rights Reserved.',
                 'feedburner' => ''
             ]
