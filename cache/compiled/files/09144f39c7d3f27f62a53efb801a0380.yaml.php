@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dan/Sites/deliver/user/config/site.yaml',
-    'modified' => 1553876855,
+    'modified' => 1553878370,
     'data' => [
-        'title' => 'Local Histories',
+        'title' => 'Tuscany Tours',
         'author' => [
             'name' => 'Daniel James Wrightson',
             'email' => 'dan@casole.com',
@@ -16,7 +16,7 @@ return [
                 'icon' => 'twitter'
             ],
             1 => [
-                'url' => '#',
+                'url' => 'https://www.linkedin.com/company/invitation-to-tuscany/',
                 'icon' => 'linkedin'
             ],
             2 => [
@@ -34,6 +34,9 @@ return [
                 ],
                 2 => [
                     'line' => 'London N12 9DA'
+                ],
+                3 => [
+                    'line' => 'United Kingdom'
                 ]
             ],
             'gps' => '1.306.222.3456'
@@ -54,8 +57,8 @@ return [
         ],
         'quicklinks' => [
             0 => [
-                'text' => 'Portfolio',
-                'url' => 'base_url:portfolio'
+                'text' => 'Tuscan Tours',
+                'url' => 'base_url:tuscan-tours'
             ],
             1 => [
                 'text' => 'About',
@@ -86,7 +89,7 @@ return [
             'route' => '/blog'
         ],
         'metadata' => [
-            'description' => 'Self Guided Tours in Italy'
+            'description' => 'Self Guided Tours in Tuscany'
         ],
         'summary' => [
             'size' => 300
@@ -113,7 +116,7 @@ return [
             'links_title' => 'Quick Links',
             'newsletter_title' => 'Newsletter',
             'newsletter_description' => 'Let us tell you a story. Subscribe here',
-            'copyright_text' => 'Copyright 2013 Deliver. All Rights Reserved.',
+            'copyright_text' => 'Copyright 2019 Invitation to Tuscany Ltd. All Rights Reserved.',
             'feedburner' => ''
         ]
     ]

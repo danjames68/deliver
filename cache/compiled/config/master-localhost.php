@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1553876857,
-    'checksum' => '2d4b9196bbe66fa34e4ebe5299e47191',
+    'timestamp' => 1553878377,
+    'checksum' => 'ed44175c589af1bb7f23459b87298bb1',
     'files' => [
         'user/config' => [
             'plugins/email' => [
@@ -19,7 +19,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1553876855
+                'modified' => 1553878370
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -587,7 +587,7 @@ return [
             'salt' => 'iL7RSGZNpyuB9T'
         ],
         'site' => [
-            'title' => 'Local Histories',
+            'title' => 'Tuscany Tours',
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Daniel James Wrightson',
@@ -599,7 +599,7 @@ return [
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Self Guided Tours in Italy'
+                'description' => 'Self Guided Tours in Tuscany'
             ],
             'summary' => [
                 'enabled' => true,
@@ -622,7 +622,7 @@ return [
                     'icon' => 'twitter'
                 ],
                 1 => [
-                    'url' => '#',
+                    'url' => 'https://www.linkedin.com/company/invitation-to-tuscany/',
                     'icon' => 'linkedin'
                 ],
                 2 => [
@@ -640,6 +640,9 @@ return [
                     ],
                     2 => [
                         'line' => 'London N12 9DA'
+                    ],
+                    3 => [
+                        'line' => 'United Kingdom'
                     ]
                 ],
                 'gps' => '1.306.222.3456'
@@ -660,8 +663,8 @@ return [
             ],
             'quicklinks' => [
                 0 => [
-                    'text' => 'Portfolio',
-                    'url' => 'base_url:portfolio'
+                    'text' => 'Tuscan Tours',
+                    'url' => 'base_url:tuscan-tours'
                 ],
                 1 => [
                     'text' => 'About',
@@ -701,7 +704,7 @@ return [
                 'links_title' => 'Quick Links',
                 'newsletter_title' => 'Newsletter',
                 'newsletter_description' => 'Let us tell you a story. Subscribe here',
-                'copyright_text' => 'Copyright 2013 Deliver. All Rights Reserved.',
+                'copyright_text' => 'Copyright 2019 Invitation to Tuscany Ltd. All Rights Reserved.',
                 'feedburner' => ''
             ]
         ],

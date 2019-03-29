@@ -1,15 +1,15 @@
 ---
-title: Travel Advisor for perfect villa
+title: Self Guided Tours in Tuscany
 menu: Other Pages
 class: small
 buttons:
-    - text: Luxury Villas
-      url: https://www.invitationto.com
+    - text: Suggest a Tour
+      mailto: dan@casole.com
       primary: true
 ---
 
 ___
 
-## Shall we find your perfect villa?
+## Is there a Tour you'd particularly like?
 
-Visit our main website to see our entire selection of write to us so we can send you a shortlist
+Write to us and tell us if you have an idea for a Tour you'd like
