@@ -3,9 +3,9 @@ title: Showcase
 menu: Top
 slides:
   - image: image1.jpg
-    heading: "We <strong>deliver</strong> nothing short of awesome !"
-    subheading: "Check out our portfolio to see our great work.."
-    button_text: PORTFOLIO
+    heading: "Villa Samantha in Sicily"
+    subheading: "Luxury for 8 near Mazara del Vallo"
+    button_text: See more
     button_url: http://learn.getgrav.org
   - image: image2.jpg
     heading: "Aenean lacinia <strong>bibendum</strong> nulla sed consectetur. !"
