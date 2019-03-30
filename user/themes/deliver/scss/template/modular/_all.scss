@@ -10,7 +10,7 @@
     h3 {
         @extend .default-animation;
         font-size: 2.5rem;
-        font-family: $font-family-logo;
+        font-family: '$font-family-logo';
         line-height: 2rem;
         margin: 0;
         float: left;
