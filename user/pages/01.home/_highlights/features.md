@@ -3,25 +3,25 @@ title: Service Highlights
 menu: Highlights
 class: big
 features:
-	- header: First Service
+	- header: Architectural
 	  text: "Sed posuere consectetur est at lobortis. Vivamus aoreet faucibus dolor auctor."
 	  icon: comment-o
 	  linkurl: "http://www.getgrav.org" 
 	  linktext: "Find Out More"
-	- header: Second Service
+	- header: Historical
 	  text: "Duis mollis, est non commodo eget urna mollis ornare vel eu leo faucibus."
 	  icon: heart-o
 	  linkurl: "http://www.getgrav.org" 
 	  linktext: "Find Out More"
-	- header: Third Service
+	- header: Artistical
 	  text: "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
 	  icon: star-o
 	  linkurl: "http://www.getgrav.org" 
 	  linktext: "Find Out More"
 ---
 
-## We are a Small Team Doing Big Things!
+## Architectural, Historical Tours in Tuscany!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.. 
+Self guided itineraries around Tuscany based on a number of themes. 
 
 ___
