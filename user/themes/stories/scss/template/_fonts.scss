@@ -39,3 +39,11 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'carrara-lig';
+    src: url('../fonts/carrara-lig-webfont.woff2') format('woff2'),
+         url('../fonts/carrara-lig-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
